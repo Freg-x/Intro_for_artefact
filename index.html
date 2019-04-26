@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript">
+		addEventListener("load", function() {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- bootstrap-css -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+
+	<!--// css -->
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" media="all">
+
+	<link href="css/owl.theme.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href="http://fonts.lug.ustc.edu.cn/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href="http://fonts.lug.ustc.edu.cn/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+
+
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$("#owl-demo").owlCarousel({
+
+				autoPlay: 3000, //Set AutoPlay to 3 seconds
+				autoPlay: true,
+				items: 4,
+				itemsDesktop: [640, 5],
+				itemsDesktopSmall: [414, 4]
+
+			});
+
+		});
+	</script>
+
+
+
+
+
+
+
+	<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+	<!-- banner -->
+	<div class="banner jarallax" id="start">
+		<div class="w3layouts-header-top">
+			<div class="container">
+				<div class="w3-header-top-grids">
+					<div class="w3-header-top-left">
+						<p><i class="fa fa-envelope-open-o" aria-hidden="true"></i> freg@tongji.edu.cn </p>
+					</div>
+
+					<div class="w3-header-top-right">
+						<div class="agileinfo-social-grids">
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-info-text">
+				<div class="container">
+					<div class="agileits-logo">
+						<h1><a href="index.html" id="maintitle">千里江山图</a></h1>
+					</div>
+
+					<div class="wthree-banner">
+						<div class="slider">
+							<script src="js/responsiveslides.min.js"></script>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function() {
+									// Slideshow 4
+									$("#slider3").responsiveSlides({
+										auto: true,
+										pager: true,
+										nav: true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function() {
+											$('.events').append("<li>before event fired.</li>");
+										},
+										after: function() {
+											$('.events').append("<li>after event fired.</li>");
+										}
+									});
+								});
+							</script>
+							<div id="top" class="callbacks_container-wrap">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="slider-info">
+											<h3>天人合一</h3>
+											<p class="title-des">绵延千年 存在于中国人内心深处和传承积淀文化深处的思想</p>
+											<div class="more-button">
+												<a href="#" data-toggle="modal" data-target="#myModal">查看简介</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slider-info">
+											<h3>景随步移</h3>
+											<p>散点透视法 六段主题 色彩绚丽</p>
+											<div class="more-button">
+												<a href="#" data-toggle="modal" data-target="#myModal">查看简介</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<div class="slider-info">
+											<h3>气魄恢弘</h3>
+											<p> 天才少年的惊世之作 画风工整 亦不失少年的意气风发 </p>
+											<div class="more-button">
+												<a href="#" data-toggle="modal" data-target="#myModal">查看简介</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- //banner -->
+				</div>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li><a href="#start" class="scroll">首页</a></li>
+										<li><a href="#about" class="scroll">关于-故宫博物院</a></li>
+										<li><a href="#services" class="scroll">发现-前世传奇</a></li>
+										<li><a href="#specials" class="scroll">关注-今世故事</a></li><span></span>
+										<li><a href="#news" class="scroll">探索-作画还原</a></li>
+										<li><a href="#mail" class="scroll">全景图</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">简介 <span>缩略图</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<div id="scrollerx">
+
+							<img src="images/full.jpg" alt="">
+						</div>
+						<p>《千⾥江⼭图》是北宋 <span class="emphasize">[王希孟]</span> 创作的绢本设色画，现收藏于<span class="emphasize">北京故宫博物院。</span></p>
+						<p>该作品以⻓卷形式，立⾜传统，画⾯细致入微，烟波浩渺的江河、层峦起伏的群⼭构成了了一幅美妙的江南⼭水图，渔村野市、水榭亭台、茅庵草舍、⽔磨⻓桥等静景穿插捕⻥、驶船、游玩、赶集等动景，动静结合恰到好处。在该作品⼈物的刻画上，极其精细入微，意态栩栩如生，⻜鸟⽤用笔轻轻⼀点，具展翅翱翔之态。</p>
+						<p>《千⾥江山图》画卷，不仅代表着青绿山水发展的里程;而且，集北宋以来⽔墨⼭水之⼤成，并将创作者的情感付诸创作之中。《千里江⼭图》虽属于写意之作，但不乏工美佳作，表现了青年画家具有严谨的⽣活态度。《千里江⼭图》是<span class="emphasize">中国十⼤传世名画之一。</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- welcome -->
+	<div class="welcome" id="welcome">
+		<div class="container">
+			<div class="w3-welcome-heading">
+				<h2 class="free">国宝的故事,待您发掘</h2>
+			</div>
+			<div class="w3l-welcome-info">
+				<div class="col-sm-6 welcome-grids">
+					<div class="welcome-img">
+						<img src="images/before-intro.jpg" class="img-responsive zoom-img" alt="前世故事">
+					</div>
+				</div>
+				<div class="col-sm-6 welcome-grids">
+					<div class="welcome-img">
+						<img src="images/after-intro.png" class="img-responsive zoom-img" alt="今生故事">
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3l-welcome-text">
+				<p>《千里江山图》是中国十大传世名画之一，每当我们望向这幅震撼的画作，是否会好奇它的<a href="#services" class="scroll" id="red1">前世经历</a>，是否会想知道它的<a href="#specials" class="scroll" id="red2">今生故事？</a></p>
+				<p>今天，让我们跟随张国立老师和国宝守护者们，共同探寻国宝背后隐藏的秘密</p>
+			</div>
+		</div>
+	</div>
+	<!-- //welcome -->
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="w3-welcome-heading">
+				<h3>故宫博物院</h3>
+			</div>
+			<div class="w3-about-grids">
+				<div class="col-md-6 w3-about-left">
+					<h5>立于紫禁之上,历经500年兴衰荣辱</h5>
+					<br>
+					<p class="palace-des">故宫位于北京市中心，也称“紫禁城”。这里曾居住过24个皇帝，是明清两代（公元1368～1911年）的皇宫，现辟为“故宫博物院”。故宫的整个建筑金碧辉煌，庄严绚丽，被誉为世界五大宫之一，并被联合国科教文组织列为“世界文化遗产”。</p>
+					<br>
+					<p class="palace-des">故宫的宫殿建筑是中国现存最大、最完整的古建筑群，总面积达72万多平方米，有殿宇宫室9999间半，被称为“殿宇之海”，气魄宏伟，极为壮观。此外，故宫博物院还收藏着许多绝无仅有的无价国宝。</p>
+					<br>
+					<div class="w3l-button">
+						<a href="https://www.dpm.org.cn/Home.html">前往官网</a>
+					</div>
+				</div>
+				<div class="col-md-6 w3-about-right">
+					<div class="about-img-grids">
+						<div class="col-md-7 about-img">
+							<img src="images/palace1.jpg" alt=" " />
+						</div>
+						<div class="col-md-5 about-img about-img1">
+							<img src="images/palace6.jpg" alt=" " />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="about-img-grids">
+						<div class="col-md-5 about-img about-img1">
+							<img src="images/palace3.jpg" alt=" " />
+						</div>
+						<div class="col-md-7 about-img">
+							<img src="images/palace4.jpg" alt=" " />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="tlinks">Collect from <a href="http://www.cssmoban.com/">企业网站模板</a></div>
+	<!-- //welcome -->
+	<!-- services -->
+	<div class="services" id="services">
+		<div class="container">
+			<div class="w3-welcome-heading">
+				<h3>发现-前世传奇</h3>
+			</div>
+		</div>
+		<div class="services-grids">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before0.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>序章</h4>
+							<br>
+							<p>故事的开始</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before1.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>初得赏识</h4>
+							<br>
+							<p>徽宗夸赞王希孟</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before2.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>遭人嫉恨</h4>
+							<br>
+							<p>才华横溢,遭太师嫉妒</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before3.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>别出心裁</h4>
+							<br>
+							<p>青绿山水原材料—石绿</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before4.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>挑拨离间</h4>
+							<br>
+							<p>太师向徽宗挑拨</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before5.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>大作终成</h4>
+							<br>
+							<p>多年雕琢,终成大器</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before6.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>一鸣惊人</h4>
+							<br>
+							<p>徽宗、太师无不为之叹服</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="services-grid-info">
+						<img src="images/before7.png" alt="" />
+						<div class="services-grid-caption">
+
+							<h4>大宋倾覆</h4>
+							<br>
+							<p>王希孟下落不明,后人传为画中仙</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!--gallery-->
+	<div class="gallery" id="specials">
+		<div class="container">
+			<div class="w3-welcome-heading">
+				<h3>关注-今世故事</h3>
+			</div>
+			<div class="agileinfo-gallery">
+				<div class="col-md-3 w3-agileits-gallery-grids">
+					<a class="w3 wow zoomIn animated" data-wow-delay=".5s" href="images/g1.jpg" data-lightbox="example-set" data-title="冯海涛先生复制作品的墨稿">
+						<img src="images/g1.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>墨稿</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 w3-agileits-gallery-grids">
+					<a class="wow zoomIn animated" data-wow-delay=".7s" href="images/g3.jpg" data-lightbox="example-set" data-title="想要完全还原作品惊世的青绿色,必须要对原材料矿物质有精细的要求">
+						<img src="images/g3.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>原材料</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 w3-agileits-gallery-grids gallery-two wthree">
+					<a class="wow zoomIn animated" data-wow-delay=".9s" href="images/g2.jpg" data-lightbox="example-set" data-title="如此巨大的作品,除了熟练的技艺,更需要漫长的时间和耐心雕琢 ">
+						<img src="images/g2.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>作画</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 w3-agileits-gallery-grids agileits-gallery-grids">
+					<a class="wow zoomIn animated" data-wow-delay=".5s" href="images/g4.jpg" data-lightbox="example-set" data-title="制墨者仇庆年老师">
+						<img src="images/g4.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>制墨者</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 w3-agileits-gallery-grids agileits-gallery-grids">
+					<a class="wow zoomIn animated" data-wow-delay=".7s" href="images/g6.jpg" data-lightbox="example-set" data-title="不仅要细细研墨,更要经过数层筛选">
+						<img src="images/g6.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>研墨</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 w3-agileits-gallery-grids agileits-gallery-grids gallery-two">
+					<a class="wow zoomIn animated" data-wow-delay=".9s" href="images/g5.jpg" data-lightbox="example-set" data-title="保护者们的宣言">
+						<img src="images/g5.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>保护</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-6 w3-agileits-gallery-grids gallery-two w3agile-two">
+					<a class="wow zoomIn animated" data-wow-delay=".5s" href="images/g7.jpg" data-lightbox="example-set" data-title="复制绘画所需的工具">
+						<img src="images/g7.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>工具</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 w3-agileits-gallery-grids">
+					<a class="wow zoomIn animated" data-wow-delay=".7s" href="images/g8.jpg" data-lightbox="example-set" data-title="最终成稿的小部分窥探">
+						<img src="images/g8.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>历程</span></h5>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 w3-agileits-gallery-grids">
+					<a class="wow zoomIn animated" data-wow-delay=".9s" href="images/g9.jpg" data-lightbox="example-set" data-title="复制绘画的历程">
+						<img src="images/g9.jpg" class="img-responsive zoom-img" alt="" />
+						<div class="agile-b-wrapper">
+							<h5><span>成稿</h5>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+				<script src="js/lightbox-plus-jquery.min.js"> </script>
+			</div>
+		</div>
+	</div>
+	<!--//gallery-->
+
+	<!-- news -->
+	<div class="news" id="news">
+		<div class="container">
+			<div class="w3-welcome-heading">
+				<h3>探索-作画还原</h3>
+			</div>
+			<div class="agile-news-grids">
+				<div class="agile-news-grid">
+					<div class="col-md-6 agile-news-left">
+						<div class="col-md-6 news-left-img news-left-img1">
+							<div class="news-left-text">
+								<h5>粉 本</h5>
+							</div>
+						</div>
+						<div class="col-md-6 news-grid-info-bottom">
+							<div class="news-left-top-text">
+								<a>起稿阶段</a>
+							</div>
+							<div class="date-grid">
+
+								<div class="clearfix"> </div>
+							</div>
+							<div class="news-grid-info-bottom-text">
+								<p>画一个十一米长的山水画打底</p>
+
+								<p>这个底就叫做粉本</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-6 agile-news-left">
+						<div class="col-md-6 news-left-img news-left-img2">
+							<div class="news-left-text">
+								<h5>赭 石 色</h5>
+							</div>
+						</div>
+						<div class="col-md-6 news-grid-info-bottom">
+							<div class="news-left-top-text">
+								<a>添加赭石色</a>
+							</div>
+							<div class="date-grid">
+
+								<div class="clearfix"> </div>
+							</div>
+							<div class="news-grid-info-bottom-text">
+								<p>为后面的绿色进行铺垫</p>
+								<p>通过冷暖对比,让画面更鲜亮</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+
+
+
+				<div class="agile-news-grid">
+					<div class="col-md-6 agile-news-left">
+						<div class="col-md-6 news-left-img news-left-img3">
+							<div class="news-left-text">
+								<h5>石 绿</h5>
+							</div>
+						</div>
+						<div class="col-md-6 news-grid-info-bottom">
+							<div class="news-left-top-text">
+								<a>使用石绿</a>
+							</div>
+							<div class="date-grid">
+
+								<div class="clearfix"> </div>
+							</div>
+							<div class="news-grid-info-bottom-text">
+								<p>石绿,就是珍贵的绿松石或孔雀石</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+					<div class="col-md-6 agile-news-left">
+						<div class="col-md-6 news-left-img news-left-img4">
+							<div class="news-left-text">
+								<h5>绿 色 叠 加</h5>
+							</div>
+						</div>
+						<div class="col-md-6 news-grid-info-bottom">
+							<div class="news-left-top-text">
+								<a>再用绿色叠加</a>
+							</div>
+							<div class="date-grid">
+
+								<div class="clearfix"> </div>
+							</div>
+							<div class="news-grid-info-bottom-text">
+								<p>这一遍上色全部用的是绿</p>
+								<p>但是用其他颜色在它上面叠加</p>
+								<p>可以产生丰富的颜色</p>
+								<p>即无极变化</p>
+							</div>
+
+
+							<div class="clearfix"> </div>
+
+						</div>
+						<div class="clearfix"> </div>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+
+				<br><br>
+
+
+				<div class="agile-news-grid">
+					<div class="col-md-6 agile-news-left">
+						<div class="col-md-6 news-left-img news-left-img5">
+							<div class="news-left-text">
+								<h5>补 足 青 色</h5>
+							</div>
+						</div>
+						<div class="col-md-6 news-grid-info-bottom">
+							<div class="news-left-top-text">
+								<a>使用青色完善</a>
+							</div>
+							<div class="date-grid">
+
+								<div class="clearfix"> </div>
+							</div>
+							<div class="news-grid-info-bottom-text">
+								<p>青,出于蓝而胜于蓝</p>
+								<p>至此,作品完成</p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+					<div class="col-md-6 agile-news-left">
+						<div class="col-md-6 news-left-img news-left-img3">
+							<div class="news-left-text">
+								<br><br>
+								<a href="#" data-toggle="modal" data-target="#tryModal" id="change">演 变 图</a>
+							</div>
+						</div>
+						<div class="col-md-6 news-grid-info-bottom">
+							<div class="news-left-top-text">
+								<a>流程回顾</a>
+							</div>
+							<div class="date-grid">
+
+								<div class="clearfix"> </div>
+							</div>
+							<div class="news-grid-info-bottom-text">
+								<p>《千里江山图》给我们呈现出来的是五色备焉</p>
+								<p>这是一个最完美的色彩体系</p>
+							</div>
+
+
+							<div class="clearfix"> </div>
+
+						</div>
+						<div class="clearfix"> </div>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<br><br>
+
+
+
+			</div>
+		</div>
+
+		<div class="modal about-modal fade" id="tryModal" tabindex="-1" role="dialog">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">演变图 <span>慢速版</span></h4>
+					</div>
+					<div class="modal-body">
+						<div class="agileits-w3layouts-info">
+							<div id="scrollerx">
+
+								<img src="images/change.gif" alt="">
+							</div>
+							<p>《千⾥江⼭图》是北宋 <span class="emphasize">[王希孟]</span> 创作的绢本设色画，现收藏于<span class="emphasize">北京故宫博物院。</span></p>
+							<p>该作品以⻓卷形式，立⾜传统，画⾯细致入微，烟波浩渺的江河、层峦起伏的群⼭构成了了一幅美妙的江南⼭水图，渔村野市、水榭亭台、茅庵草舍、⽔磨⻓桥等静景穿插捕⻥、驶船、游玩、赶集等动景，动静结合恰到好处。在该作品⼈物的刻画上，极其精细入微，意态栩栩如生，⻜鸟⽤用笔轻轻⼀点，具展翅翱翔之态。</p>
+							<p>《千⾥江山图》画卷，不仅代表着青绿山水发展的里程;而且，集北宋以来⽔墨⼭水之⼤成，并将创作者的情感付诸创作之中。《千里江⼭图》虽属于写意之作，但不乏工美佳作，表现了青年画家具有严谨的⽣活态度。《千里江⼭图》是<span class="emphasize">中国十⼤传世名画之一。</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- //news -->
+		<!-- testimonial -->
+		<div class="testimonial jarallax">
+			<div class="container">
+				<div class="agileits-w3layouts-info">
+					<div class="testimonial-grid">
+						<div class="slider">
+							<div class="callbacks_container">
+								<ul class="rslides" id="slider4">
+									<li>
+										<div class="testimonial-top">
+											<i class="fa fa-quote-right" aria-hidden="true"></i>
+											<p>作为一个少年来说，我觉得非常难得。他那个气象，胸怀，是那么博大。从他的用色，和他的表现的力度来看。还是充满着年轻人的那个朝气和阳光。所以我觉得，无论是古典还是当代。这一幅画作，仍旧是我们山水画的一个巅峰之作。</p>
+											<h5>蔡琴 <span>- 浙江省博物馆副馆长</span></h5>
+										</div>
+									</li>
+									<li>
+										<div class="testimonial-top">
+											<i class="fa fa-quote-right" aria-hidden="true"></i>
+											<p>诗经里面的，“如临深渊，如履薄冰”，就是战战兢兢 。通过这种自然景观，来述说的是中国人做人的一些基本准则。他画这幅画就是要告诉你，我们做人要战战兢兢。</p>
+											<h5>冯海涛 <span>- 中央美院教授 画作复制者</span></h5>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<script>
+								// You can also use "$(window).load(function() {"
+								$(function() {
+									// Slideshow 4
+									$("#slider4").responsiveSlides({
+										auto: true,
+										pager: false,
+										nav: false,
+										speed: 500,
+										namespace: "callbacks",
+										before: function() {
+											$('.events').append("<li>before event fired.</li>");
+										},
+										after: function() {
+											$('.events').append("<li>after event fired.</li>");
+										}
+									});
+
+								});
+							</script>
+							<!--banner Slider starts Here-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- //testimonial -->
+		<!-- contact -->
+		<div class="contact" id="mail">
+			<div class="container">
+				<div class="w3-welcome-heading">
+					<h3>千里江山图 : 原图 </h3>
+					<br>
+					<p class="instrcution">滚动鼠标,左右移动图片</p>
+					<hr>
+				</div>
+				
+
+
+			</div>
+		</div>
+
+		<div id="scrollerxy">
+
+			<img src="images/full.jpg" alt="">
+		</div>
+		<!-- //contact -->
+		<!-- newsletter -->
+		<div class="newsletter">
+			<div class="container">
+				<div class="col-md-6 newsletter-left">
+					<h5>收藏网页,获取更多传世文物信息</h5>
+				</div>
+				<div class="col-md-6 newsletter-right">
+					<form action="#" method="post">
+						<input type="email" placeholder="给我们留言" name="Subscribe" required="">
+						<button class="btn1"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //newsletter -->
+		<!-- footer -->
+		<div class="footer">
+			<div class="container">
+				<div class="w3-agile-social-grids">
+					<a href="https://www.bilibili.com/bangumi/play/ep150705/">国家宝藏</a>
+					<div class="border"></div>
+					<ul>
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-rss"></i></a></li>
+						<li><a href="#"><i class="fa fa-vk"></i></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					<p>Copyright &copy; freg 采用jquery/Bootstrap/ScrollerBar font-awesome owl-theme插件 网页布局 - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- //footer -->
+		<script src="js/jarallax.js"></script>
+		<script src="js/SmoothScroll.min.js"></script>
+		<script type="text/javascript">
+			/* init Jarallax */
+			$('.jarallax').jarallax({
+				speed: 0.5,
+				imgWidth: 1366,
+				imgHeight: 768
+			})
+		</script>
+		<script src="js/responsiveslides.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<!-- here stars scrolling icon -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+					var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear'
+					};
+				*/
+
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+
+			});
+		</script>
+
+		<!-- //here ends scrolling icon -->
+		<!-- Tabs-JavaScript -->
+		<script src="js/owl.carousel.js"></script>
+
+
+
+		<script src="jquery.mCustomScrollbar.concat.min.js"></script>
+		<script>
+			(function($) {
+				$(window).load(function() {
+					$("#scrollerxy").mCustomScrollbar({
+
+						horizontalScroll: true
+					});
+				});
+			})(jQuery);
+		</script>
+</body>
+
+</html>
